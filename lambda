@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// lambda
+	int v = 1;
+	auto l = [v](int v)
+{
+    cout << v;
+};
+
+l(v);
+	return 0;
+}
